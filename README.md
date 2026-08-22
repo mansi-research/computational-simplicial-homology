@@ -34,20 +34,11 @@ $$\partial[v_0,\ldots,v_k]=\sum_{i=0}^{k}(-1)^i[v_0,\ldots,\widehat{v_i},\ldots,
 
 The boundary maps satisfy
 
-$$
-\partial_{k-1}\circ\partial_k=0.
-$$
+$$\partial_{k-1}\circ\partial_k=0$$
 
 The $k$-th Betti number is computed using
 
-$$
-\beta_k =
-\dim C_k
--
-\operatorname{rank}(\partial_k)
--
-\operatorname{rank}(\partial_{k+1}).
-$$
+$$\beta_k =\dim C_k-\operatorname{rank}(\partial_k)-\operatorname{rank}(\partial_{k+1}).$$
 
 ## Implementation
 
@@ -68,9 +59,7 @@ simplices and NumPy for the required linear algebra.
 
 For a filled triangle,
 
-$$
-(\beta_0,\beta_1,\beta_2)=(1,0,0).
-$$
+$$(\beta_0,\beta_1,\beta_2)=(1,0,0)$$
 
 This represents one connected component with no
 one-dimensional holes.
@@ -79,9 +68,7 @@ one-dimensional holes.
 
 When the triangular face is removed,
 
-$$
-(\beta_0,\beta_1)=(1,1).
-$$
+$$(\beta_0,\beta_1)=(1,1).$$
 
 The three edges form one closed loop, producing one
 one-dimensional hole.
