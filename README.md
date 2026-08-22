@@ -10,9 +10,7 @@ using boundary operators, boundary matrices, and linear algebra.
 The implementation constructs finite simplicial complexes, computes
 their boundary matrices, verifies the fundamental property
 
-$$
-\partial_{k-1}\circ\partial_k=0,
-$$
+$$\partial_{k-1}\circ\partial_k=0$$
 
 and computes Betti numbers for simple examples.
 
@@ -32,12 +30,7 @@ The project uses the basic concepts of simplicial homology:
 
 For an oriented $k$-simplex,
 
-$$
-\partial[v_0,\ldots,v_k]
-=
-\sum_{i=0}^{k}(-1)^i
-[v_0,\ldots,\widehat{v_i},\ldots,v_k].
-$$
+$$\partial[v_0,\ldots,v_k]=\sum_{i=0}^{k}(-1)^i[v_0,\ldots,\widehat{v_i},\ldots,v_k]$$
 
 The boundary maps satisfy
 
