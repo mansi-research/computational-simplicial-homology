@@ -38,7 +38,7 @@ $$\partial_{k-1}\circ\partial_k=0$$
 
 The $k$-th Betti number is computed using
 
-$$\beta_k =\dim C_k-\operatorname{rank}(\partial_k)-\operatorname{rank}(\partial_{k+1}).$$
+$$\beta_k =\dim C_k-\mathrm{rank}(\partial_k)-\mathrm{rank}(\partial_{k+1}).$$
 
 ## Implementation
 
