@@ -44,11 +44,14 @@ $$\beta_k =\dim C_k-\mathrm{rank}(\partial_k)-\mathrm{rank}(\partial_{k+1}).$$
 
 The implementation is developed in several stages:
 
-1. Representation of simplices and simplicial complexes.
-2. Construction of boundary operators.
-3. Construction of boundary matrices.
-4. Verification that the boundary of a boundary is zero.
-5. Computation of Betti numbers.
+1. Basic Simplex Representation
+2. Initial Triangle Implementation
+3. General Boundary Operator for Arbitrary Simplices
+4. Generalization to Simplicial Complexes
+5. Extracting Simplices by Dimension
+6. General Boundary Matrices
+7. Verification of the Boundary Property
+8. Betti Number Computation
 
 The implementation uses Python lists and tuples to represent
 simplices and NumPy for the required linear algebra.
